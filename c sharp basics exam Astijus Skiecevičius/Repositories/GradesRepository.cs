@@ -5,7 +5,7 @@ namespace c_sharp_basics_exam_Astijus_Skiecevičius.Repositories
 {
     public class GradesRepository
     {
-        public List<Grades> grades = new List<Grades>();
+        private List<Grades> grades = new List<Grades>();
         public GradesRepository()
         {
             grades.Add(new Grades(1, 1, 5));
